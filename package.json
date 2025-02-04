@@ -1,5 +1,5 @@
 {
-  "name": "Onyx Bot",
+  "name": "JerBot05",
   "version": "6.0.0",
   "description": "Super WhatsApp Bot Multi Device",
   "main": "index.js",
@@ -18,13 +18,13 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/MatiasC-15/onyxbot-MD-renovado1",
+  "homepage": "https://github.com/JereCrack05/-JerBot05",
   "author": {
     "name": "@Sisked"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatiasC-15/onyxbot-MD-renovado1.git"
+    "url": "git+https://github.com/JereCrack05/-JerBot05.git"
   },
   "bugs": {
     "url": "https://github.com/MatiasC-15/onyxbot-MD-renovado1/issues"
