@@ -29,7 +29,7 @@ const defaultMenu = {
   before: `
 _*BIENVENIDO QUERIDO USUARIO!*_
 
-“ _*HOLA *%name*, ESTE ES EL MENU DE ONYX BOT*_ "
+“ _*HOLA *%name*, ESTE ES EL MENU DE Jer Bot*_ "
 
 _*EN QUE PUEDO SERVIRTE!*_! ”
 
