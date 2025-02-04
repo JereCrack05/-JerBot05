@@ -10,8 +10,7 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['593985327644', '@Onyx', true],
-  ['593979133620', '@𝚂𝚒𝚜𝚔𝚎𝚍', true],
+  ['584247359684', '@Jer', true]
 ]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -21,12 +20,12 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝙊𝙉𝙔𝙓 𝘽𝙊𝙏`
-global.author = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
-global.wait = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
-global.botname = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
-global.textbot = `𝙊𝙉𝙔𝙓 𝘽𝙊𝙏 𝘼 𝙏𝙐𝙎 𝙊𝙍𝘿𝙀𝙉𝙀𝙎`
-global.listo = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏  𝙏𝙊𝘿𝙊 𝙇𝙄𝙎𝙏𝙊!'
+global.packname = `Jer 𝘽𝙊𝙏`
+global.author = 'Jer 𝘽𝙊𝙏'
+global.wait = 'Jer 𝘽𝙊𝙏'
+global.botname = 'Jer 𝘽𝙊𝙏'
+global.textbot = `Jer 𝘽𝙊𝙏 𝘼 𝙏𝙐𝙎 𝙊𝙍𝘿𝙀𝙉𝙀𝙎`
+global.listo = 'Jer 𝘽𝙊𝙏  𝙏𝙊𝘿𝙊 𝙇𝙄𝙎𝙏𝙊!'
 global.namechannel = '「  𝑺𝑰𝑺𝑲𝑬𝑫 - 𝑪𝑯𝑨𝑵𝑬𝑳  」'
 global.baileys = '@whiskeysockets/baileys'
 
@@ -42,7 +41,7 @@ global.canal = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: botname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "584247359684@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: botname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
