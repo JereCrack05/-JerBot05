@@ -22,10 +22,11 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('Onyx\nBot', {
-font: 'chrome',
-align: 'center',
-gradient: ['red', 'magenta']})
+say('JerBot\nv05', {
+  font: '3D',
+  align: 'right',
+  gradient: ['cyan', 'blue']
+});
 
 var isRunning = false
 
