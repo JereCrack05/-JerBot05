@@ -30,13 +30,13 @@ let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
         if (user.limit >= count * 1) {
             user.limit -= count * 1
             if (Aku > Kamu) {
-                conn.reply(m.chat, '`🍟 Veamos que numeros tienen!`\n\n'+ `➠ *🍫 ONYX 𝑩𝑶𝑻 - 𝑴𝑫* : ${Aku}\n➠ *${username}* : ${Kamu}\n\n> ${username}, *PERDISTE* ${formatNumber(count)} 🍬 Dulces.`.trim(), m)
+                conn.reply(m.chat, '`🍟 Veamos que numeros tienen!`\n\n'+ `➠ *🍫 Jer 𝑩𝑶𝑻 - 𝑴𝑫* : ${Aku}\n➠ *${username}* : ${Kamu}\n\n> ${username}, *PERDISTE* ${formatNumber(count)} 🍬 Dulces.`.trim(), m)
             } else if (Aku < Kamu) {
                 user.limit += count * 2
-                conn.reply(m.chat, '`🍟 Veamos que numeros tienen!`\n\n'+ `➠ *🍫 ONYX 𝑩𝑶𝑻 - 𝑴𝑫* : ${Aku}\n➠ *${username}* : ${Kamu}\n\n> ${username}, *GANASTE* ${formatNumber(count * 2)} 🍬 Dulces.`.trim(), m)
+                conn.reply(m.chat, '`🍟 Veamos que numeros tienen!`\n\n'+ `➠ *🍫 Jer 𝑩𝑶𝑻 - 𝑴𝑫* : ${Aku}\n➠ *${username}* : ${Kamu}\n\n> ${username}, *GANASTE* ${formatNumber(count * 2)} 🍬 Dulces.`.trim(), m)
             } else {
                 user.limit += count * 1
-                conn.reply(m.chat, '`🍟 Veamos que numeros tienen!`\n\n'+ `➠ *🍫 ONYX 𝑩𝑶𝑻 - 𝑴𝑫* : ${Aku}\n➠ *${username}* : ${Kamu}\n\n> ${username} obtienes ${formatNumber(count * 1)} 🍬 Dulces.`.trim(), m)
+                conn.reply(m.chat, '`🍟 Veamos que numeros tienen!`\n\n'+ `➠ *🍫 Jer 𝑩𝑶𝑻 - 𝑴𝑫* : ${Aku}\n➠ *${username}* : ${Kamu}\n\n> ${username} obtienes ${formatNumber(count * 1)} 🍬 Dulces.`.trim(), m)
             }
         } else conn.reply(m.chat, `No tienes *${formatNumber(count)} 🍬 dulces* para apostar!`.trim(), m)
     
