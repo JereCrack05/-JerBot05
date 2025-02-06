@@ -28,26 +28,6 @@ say('JerBot\nv05', {
   gradient: ['cyan', 'blue']
 });
 
-//borrar por si a caso
-// index.js (fragmento)
-const handleConfig = require('./handler/confighandler');
-
-sock.ev.on('messages.upsert', async (m) => {
-  const message = m.messages[0];
-  const id = message.key.remoteJid;
-  const text = message.message.conversation || "";
-  const args = text.trim().split(/ +/);
-  const command = args.shift()?.toLowerCase();
-
-  // Comandos enable/disable
-  if (command === '.enable' || command === '.disable') {
-    await handleConfig(command, args, sock, id);
-    return;
-  }
-
-  // borrar por si a caso
-});
-
 var isRunning = false
 
 async function start(files) {
