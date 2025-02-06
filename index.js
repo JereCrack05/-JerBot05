@@ -30,7 +30,7 @@ say('JerBot\nv05', {
 
 //borrar por si a caso
 // index.js (fragmento)
-const handleConfig = require('./handlers/configHandler');
+const handleConfig = require('./handler/confighandler');
 
 sock.ev.on('messages.upsert', async (m) => {
   const message = m.messages[0];
